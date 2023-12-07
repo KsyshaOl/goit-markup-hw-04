@@ -179,7 +179,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -253,10 +253,6 @@ body {
     border-radius: 4px;
     margin-bottom: 8px;
     background-color: #F4F4FD;
-}
-
-.advant-icons {
-    margin: 24px 100px;
 }
 
 .advantages-subtitle {
@@ -363,7 +359,7 @@ body {
 
 .social-list-link:hover,
 .social-list-link:focus {
-    background-color: #404bbf;;
+    background-color: #404bbf;
 }
 
 .social-icons {
@@ -426,7 +422,7 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.over-container:hover .overlay {
+.works-item:hover .overlay {
     transform: translateX(0);
 }
 
